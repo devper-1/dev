@@ -5,15 +5,15 @@ int main() {
 	setlocale(LC_ALL, "ru");
 	int num1, num2, sum;
 
-	cout << "¬ведите 1-ое число: ";
+	cout << "Enter first num: ";
 	cin >> num1;
 
-	cout << "¬ведите 2-ое число: ";
+	cout << "Enter second num: ";
 	cin >> num2;
 
 	sum = num1 + num2;
 
-	cout << "—умма чисел равна: " << sum << endl;
+	cout << "sum: " << sum << endl;
 
 	return 0;
 }
